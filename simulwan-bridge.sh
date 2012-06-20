@@ -13,19 +13,19 @@ IF=eth1
 
 # Liaison sortante (UPLOAD) a appliquer sur IF
 # Debit sortant
-BWU=4mbit
+BWU=8mbit
 # Délai de transit sortant
-DELAYU=10ms
+DELAYU=15ms
 # % de paquets perdus sortant
-LOSSU=0.00%
+LOSSU=0.0001%
 
 # Liaison entrante (DOWNLOAD) a appliquer sur IF
 # Debit entrant
-BWD=2mbit
+BWD=1mbit
 # Délai de transit entrant
-DELAYD=10ms
+DELAYD=15ms
 # % de paquets perdus entrant
-LOSSD=0.00%
+LOSSD=0.0001%
 
 ##############################################################################
 
